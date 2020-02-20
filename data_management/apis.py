@@ -41,7 +41,7 @@ class Connectors:
         '''
         self.sync_now = None
         
-        w_id, w_key = '39df55d0', 'afce27bf61cdfc4cdd3ae5b5281e39dc'
+        w_id, w_key = 'WEATHER_SERVICE_ID', 'WEATHER_SERVICE_KEY'
         
         self.time_api = 'http://api.timezonedb.com/v2/list-time-zone?key='+self.sim.KEY+'&format=json&country='+self.sim.ZONE+''
         
